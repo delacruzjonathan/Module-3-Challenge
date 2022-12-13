@@ -7,17 +7,22 @@ I made adjustments in JavaScript code to generate random passwords once promted 
 
 
 ## Installation
-1. I used window.promt and window.confirm so that I am presented with a series of prompts for password criteria.
+1. I used window.prompt and window.confirm so that I am presented with a series of prompts for password criteria.
 2. Questions were set to confirm whether the critera is met (lowercase, uppercase, special characters, numerical values).
 3. Password is generated using Math.random and including all the arrays to generate code in Javascript if criteria is met.
-4. Code was altered so the generated password would be written to the webpage
-```
+4. Code was altered so the generated password would be written to the webpage.
 
 ## Screenshot
 
 The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+![screenshot-of-website-image](./Images/127.0.0.1_5500_index.html.png)
 
+
+## Usage
+
+Webpage:
+
+ [Github Page Address](https://github.com/delacruzjonathan/Module-3-Challenge)
 
 
