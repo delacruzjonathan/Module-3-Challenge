@@ -18,15 +18,15 @@ function generatePassword () {
 }
   var inputValid = true
 if (confirm('Use lowercase characters?')) {
-fullArray = fullArray.concat(lowerChar);
+ fullArray = fullArray.concat(lowerChar);
 }
 //prompt for uppercase
 if (confirm ('Use uppercase characters?')) {
-fullArray = fullArray.concat(upperChar);
+  fullArray = fullArray.concat(upperChar);
 }
 //prompt for numeric
 if (confirm( 'Use numeric values?')) {
-fullArray = fullArray.concat(numericalChar);
+  fullArray = fullArray.concat(numericalChar);
 }
 //prompt for special characters
 if (confirm( 'Use special characters?')) {
